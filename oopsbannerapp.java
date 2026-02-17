@@ -8,5 +8,13 @@ public class oopsbannerapp {
         System.out.println("*   * *   * *             ");
         System.out.println("*   * *   * *             ");
         System.out.println(" ***   ***   *        *****");
+		
+		System.out.println(String.join(" ", " *** ", " *** ", " ***** ", " ***** "));
+        System.out.println(String.join(" ", "*   *", "*   *", "*    *", "*     "));
+        System.out.println(String.join(" ", "*   *", "*   *", "*    *", "*     "));
+        System.out.println(String.join(" ", "*   *", "*   *", " *****", " *****"));
+        System.out.println(String.join(" ", "*   *", "*   *", "*     ", "     *"));
+        System.out.println(String.join(" ", "*   *", "*   *", "*     ", "*   *"));
+        System.out.println(String.join(" ", " *** ", " *** ", "*     ", " *****"));
 	}
-}
+}	
